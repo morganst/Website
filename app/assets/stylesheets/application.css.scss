@@ -23,7 +23,7 @@
 
 .navbar, .home-callout {
   background: #BE93C5; /* fallback for old browsers */ 
-  //Gradient provided by @_ighosh at uiGradients.com
+  /*Gradient provided by @_ighosh at uiGradients.com */
   background: -webkit-linear-gradient(to left, #BE93C5 , #7BC6CC); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #BE93C5 , #7BC6CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }      
@@ -36,4 +36,22 @@
   margin: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
+}
+
+.navbar-default .navbar-brand {
+  color: #F0FFF0;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #F0FFF0;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #F0FFF0;
+  opacity: 0.75;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #F0FFF0;
+  opacity: 0.75;
 }
