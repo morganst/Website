@@ -56,3 +56,15 @@
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #F0FFF0;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  color: #F0FFF0;
+ &:hover, &:focus {
+    background-color: #BE93C5;
+    opacity: 0.75;
+  }
+}
