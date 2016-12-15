@@ -35,6 +35,9 @@ group :development, :test do
   gem 'byebug', platform: :mri
 end
 
+# Use Font Awesome sass gem for adding icons
+gem 'font-awesome-sass', '4.6.2'
+
 #use twitter bootsrap library for front-end UI and layout
 gem 'bootstrap-sass' , '3.3.7'
 
