@@ -41,6 +41,9 @@ gem 'font-awesome-sass', '4.6.2'
 #Use Hirb for better db display
 gem 'hirb', '0.7.3'
 
+# Use Devise for user authentication
+gem 'devise', '4.2.0'
+
 #use twitter bootsrap library for front-end UI and layout
 gem 'bootstrap-sass' , '3.3.7'
 
