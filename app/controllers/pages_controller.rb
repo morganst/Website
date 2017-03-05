@@ -4,6 +4,6 @@ class PagesController < ApplicationController
     @pro_plan = Plan.find(2)
   end
     
-  def about
-  end
+    def about
+    end
 end
