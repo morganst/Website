@@ -50,6 +50,9 @@ gem 'stripe', '1.48.0'
 # Use Figaro for ENV variables
 gem 'figaro', '1.1.1'
 
+#use paperclip for image upload 
+gem 'paperclip', '4.3.6'
+
 #use twitter bootsrap library for front-end UI and layout
 gem 'bootstrap-sass' , '3.3.7'
 
