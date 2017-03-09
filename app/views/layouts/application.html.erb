@@ -8,6 +8,7 @@
     <%= javascript_include_tag "https://js.stripe.com/v2/", type: 'text/javascript' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= tag :meta, :name => "stripe-key", :content => STRIPE_PUBLIC_KEY %>
+    <%= favicon_link_tag 'favicon.ico' %>
   </head>
 
   <body>
@@ -23,7 +24,7 @@
           
           <%= link_to root_path, class: "navbar-brand" do %>
              <i class="fa fa-group"></i>
-             SaaS
+             UserProfiles
           <% end %>
           
           </a>
