@@ -13,9 +13,10 @@
     </div>
     <div class="well profile-block profile-contact">
       <h3>Contact</h3>
-      <%= @user.profile.phone_number %>
+      <%= @user.profile.phone_number %><br/>
       <%= @user.profile.contact_email %>
     </div>
+    <%= link_to "Edit Your Profile", edit_user_profile_path(user_id: current_user.id), class: 'btn btn-primary btn-lg btn-block' %>
   </div>
 </div>
 
